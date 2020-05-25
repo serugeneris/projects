@@ -20,16 +20,21 @@ def get_password_leaks_count(hashes, hash_to_check):
 def pwned_api_check(password):
 	sha1password = (hashlib.sha1(password.encode('utf-8')).hexdigest().upper())
 	first5_char, tail = sha1password[:5], sha1password[5:]
-	response = request_api_data(first5_char)
+	response = request_api_data(first5_char)	
 	return get_password_leaks_count(response, tail)
 
 def main(args):
 	for password in args:
+		print('You are in the main function')
 		count = pwned_api_check(password)
 		if count:
 			print(f'{password} has been used {count} times. You should change it!')
 		else:
 			print(f'{password} is a secure password')
 	return 'Done!'
+
 if __name__ == '__main__':
 	sys.exit(main(sys.argv[1:]))
+
+
+
