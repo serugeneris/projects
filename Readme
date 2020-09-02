@@ -1,1 +1,12 @@
-Readme
+Password Checker
+
+This short script allows you to check in the wide known site https://haveibeenpwned.com/ if your password was leaked or if it is a safe one.
+
+It can take as many arguments as you want when running from terminal.
+
+This is the process it follows:
+  a. It'll hash the passwords provided on the arguments and get the first 5 characters from the hash.
+  b. It retrieves a list of hashed passwords (which have been exposed as per the site) that start with those 5 characters.
+  c. It compares your hashed passwords with the list retrieved and tells you if you are in danger because of password leakage.
+
+As it is compared locally, your passwords are always secure ;)
