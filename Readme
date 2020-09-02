@@ -1,4 +1,12 @@
-1. Password Checker
+1. WAV to MP3 Conversor
+
+As I'm a musician, I'm used to record demos and share with my friends to get a feedback. We all know that WAV files are a bit difficult to share because of its size.
+
+Although there are several sites to convert WAV to MP3, this short script allows you to do it locally and protects your files from whatever the site does with them.
+
+Please refer to the library repository in case you have any issues with audio codecs needed: https://github.com/jiaaro/pydub.
+
+2. Password Checker
 
 This short script allows you to check in the wide known site https://haveibeenpwned.com/ if your password was leaked or if it is a safe one.
 
