@@ -38,7 +38,7 @@ if election == 1:
 		if filter_words and (filter_words in title.text):
 			election_1(title)
 			filtered = True
-		elif filter_words == False:
+		elif filter_words == "":
 			election_1(title)
 	if filter_words and (filtered == False):
 		print('Nothing found with that filter :(')
