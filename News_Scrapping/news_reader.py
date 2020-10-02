@@ -51,7 +51,7 @@ elif election == 2:
 			if filter_words and (filter_words in title.text):
 				list_of_links.write(str(title))
 				filtered = True
-			elif filter_words == False:
+			elif filter_words == "":
 				list_of_links.write(str(title))
 		if filter_words and (filtered == False):
 			print('Nothing found with that filter :(')
