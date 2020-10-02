@@ -1,3 +1,5 @@
+Projects
+
 1. WAV to MP3 Conversor
 
 As I'm a musician, I'm used to record demos and share with my friends to get a feedback. We all know that WAV files are a bit difficult to share because of its size.
@@ -18,3 +20,12 @@ This is the process it follows:
   c. It compares your hashed passwords with the list retrieved and tells you if you are in danger because of password leakage.
 
 As it is compared locally, your passwords are always secure ;)
+
+3. News Scrapper
+
+Do you want to avoid those colorful photos that mess up with your concentration when reading the news?
+
+This script will allow you to have a feed with all the titles and links of the news of a site.
+You can either print them into the console when executing or export them to a basic html file.
+
+It also includes a filter to search for a particular word or phrase. It will tell you if the word or phrase don't return any results.
