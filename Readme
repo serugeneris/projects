@@ -21,11 +21,12 @@ This is the process it follows:
 
 As it is compared locally, your passwords are always secure ;)
 
-3. News Scrapper
+3. News_Scrapping
 
 Do you want to avoid those colorful photos that mess up with your concentration when reading the news?
 
-This script will allow you to have a feed with all the titles and links of the news of a site.
+This script will allow you to have a feed with all the titles and links of the news of a site. 
+In this case, I've worked with Ámbito, which is an argentinian economics and finance newspaper.
 You can either print them into the console when executing or export them to a basic html file.
 
 It also includes a filter to search for a particular word or phrase. It will tell you if the word or phrase don't return any results.
